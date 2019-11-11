@@ -41,6 +41,7 @@ function App() {
   return (
     <Provider store={store}>
       <Counter />
+      {/* <Counter count={25} increment={()=>console.log("called increment")} /> */}
     </Provider>
   );
 }
